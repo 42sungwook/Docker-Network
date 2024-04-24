@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-RUN apk -U upgrade && \
+RUN apk -U update && \
 	rm -rf /var/cache/apk/* && \
 	apk add --no-cache php81 \
 	php81-fpm \
